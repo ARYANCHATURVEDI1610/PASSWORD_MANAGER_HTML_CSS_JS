@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-password, .search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.add-password input, .search input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.password-list {
+    max-height: 300px;
+    overflow-y: auto;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.password-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.password-item span {
+    display: block;
+}
+
+.password-item button {
+    margin-left: 10px;
+    background-color: #ff4d4d;
+}
+
+.password-item button:hover {
+    background-color: #ff0000;
+}
